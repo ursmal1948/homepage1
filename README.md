@@ -4,7 +4,7 @@
 Feel free to visit my [website] 
 
 
-![Ula](https://github.com/ursmal1948/homepage1/blob/main/pictures/zdj.jpg?raw=true)
+![Ula](https://github.com/ursmal1948/homepage1/blob/main/images/zdj.jpg?raw=true)
 
 ## Description
 
