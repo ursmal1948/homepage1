@@ -1,7 +1,8 @@
-let button = document.querySelector(".section__button");
-let body = document.querySelector(".body");
-let buttonName = document.querySelector(".section__buttonName");
-let songTitle = document.querySelector(".table__songTitle");
+{
+    const button = document.querySelector(".section__button");
+const body = document.querySelector(".body");
+const buttonName = document.querySelector(".section__buttonName");
+const songTitle = document.querySelector(".table__songTitle");
 
 
 button.addEventListener("click", () => {
@@ -18,23 +19,31 @@ button.addEventListener("click", () => {
     }
 });
 
+const song1 = "Vi kan kjøpe hele Sverige"
+const song2 = "Mythos"
+const song3 = "Afterski"
 
+const favoriteSong = document.querySelector(".section__favoriteSong");
 
-let favoriteSong = document.querySelector(".section__favoriteSong");
+const songButton = document.querySelector(".section__songButton");
 
-let songButton = document.querySelector(".section__songButton");
-songButton.addEventListener("click", () => {
+onChangeFavoriteSongClick = () => {
+    
     favoriteSong.innerText;
     switch (songTitle.innerText) {
         case "Vi kan kjøpe hele Sverige":
-            favoriteSong.innerText = ("Vi kan kjøpe hele Sverige");
-            break;
+           return favoriteSong.innerText = song1;
+            
         case "Mythos":
-            favoriteSong.innerText = ("Mythos");
-            break;
+          return  favoriteSong.innerText = song2;
+            
         default:
-            favoriteSong.innerText = ("Afterski");
-            break;
+           return favoriteSong.innerText = song3;
+           
     }
-})
+};
 
+songButton.addEventListener("click", onChangeFavoriteSongClick);
+
+
+}
