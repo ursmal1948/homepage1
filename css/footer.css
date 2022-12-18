@@ -1,0 +1,11 @@
+
+
+.footer__paragraph--copyright {
+    background-color: rgb(185, 127, 178);
+    padding: 15px;
+    text-align: center;
+    color: white;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 0;
+}

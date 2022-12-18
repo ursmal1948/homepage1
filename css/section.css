@@ -1,0 +1,62 @@
+.section__header--main {
+    color: rgb(227 148 175);
+}
+
+.section {
+    line-height: 1.5;
+    padding-top: 10px;
+}
+
+.section__header {
+    border: 2px solid rgb(239, 139, 139);
+    border-radius: 10px;
+    width: auto;
+    margin: 40px 25px 5px;
+    padding: 3px;
+    background-color: blanchedalmond;
+    box-shadow: 0px -5px 200px 10px #bc9f60;
+}
+
+
+.section__paragraph {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.section__paragraph--list {
+    color: rgb(126, 124, 124);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.section__orderedList {
+    list-style-position: inside;
+    list-style-type: decimal;
+    margin-bottom: 30px;
+}
+
+
+.section__container {
+    overflow-x: auto;
+}
+
+.section__songButton {
+    padding: 10px 15px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: rgb(236, 233, 236);
+    border: 2px solid rgb(94, 21, 153);
+}
+
+
+
+.section__button {
+    padding: 10px 15px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: rgb(236, 233, 236);
+    border: 2px solid rgb(94, 21, 153);
+    margin-bottom: 20px;
+}

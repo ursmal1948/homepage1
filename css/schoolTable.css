@@ -1,0 +1,47 @@
+.schoolTable {
+    margin: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    width: auto;
+    border-collapse: collapse;
+
+}
+
+.schoolTable__caption {
+    margin-top: auto;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    color: rgb(126, 124, 124);
+    font-weight: bold;
+    font-size: 30px;
+
+}
+
+.schoolTable__cell--header {
+    color: rgb(89, 61, 61);
+}
+
+.schoolTable__cell {
+    padding: 5px 10px;
+    border: 2px solid rgb(227 148 175);
+    text-align: center;
+}
+
+.schoolTable__link {
+    text-decoration: none;
+    color: black;
+}
+
+.schoolTable__link:hover {
+    color: crimson;
+}
+
+.schoolTable__link:focus {
+    color: rgb(255, 143, 162);
+    outline: 2px solid black;
+}
+
+
+
