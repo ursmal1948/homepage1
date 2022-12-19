@@ -1,6 +1,16 @@
 {
     const songTitle = document.querySelector(".table__songTitle");
 
+    const onChangeSongTitleClick = (songTitle, body) => {
+
+        if (body.classList.contains("blue")) {
+            songTitle.innerText = "Afterski";
+        } else {
+            songTitle.innerText = "Mythos";
+        }
+
+    };
+
     onChangeBackgroundClick = () => {
         const body = document.querySelector(".body");
         const buttonName = document.querySelector(".section__buttonName");
@@ -11,20 +21,14 @@
             ? "jasny" :
             "niebieski";
 
-        if (body.classList.contains("blue")) {
-            songTitle.innerText = "Afterski";
-        } else {
-            songTitle.innerText = "Mythos";
-        }
-    }
+        onChangeSongTitleClick(songTitle, body);
+    };
+
     const button = document.querySelector(".section__button");
 
     button.addEventListener("click", onChangeBackgroundClick);
 
-
-
-
-    onChangeFavoriteSongClick = () => {
+    const init = () => {
         const song1 = "Vi kan kjøpe hele Sverige"
         const song2 = "Mythos"
         const song3 = "Afterski"
@@ -44,10 +48,9 @@
 
         }
     };
+    
     const songButton = document.querySelector(".section__songButton");
 
-
-    songButton.addEventListener("click", onChangeFavoriteSongClick);
-
+    songButton.addEventListener("click", init);
 
 }
