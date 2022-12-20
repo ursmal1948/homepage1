@@ -2,13 +2,11 @@
     const songTitle = document.querySelector(".table__songTitle");
 
     const onChangeSongTitleClick = (songTitle, body) => {
-
         if (body.classList.contains("blue")) {
             songTitle.innerText = "Afterski";
         } else {
             songTitle.innerText = "Mythos";
         }
-
     };
 
     onChangeBackgroundClick = () => {
