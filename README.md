@@ -18,20 +18,5 @@ You can find many useful and interesting information about Norway and life there
 - JavaScript
 - CSS
 - BEM
-
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
  
  [website]: <https://ursmal1948.github.io/homepage1/>
